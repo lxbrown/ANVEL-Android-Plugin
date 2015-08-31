@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ANVEL Video</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_description">Display Screen</string>
+    <string name="connection">Awaiting Connection…</string>
+    <string name="IP">Tap to change IP</string>
+    <string name="F">F</string>
+    <string name="B">B</string>
+    <string name="L">L</string>
+    <string name="R">R</string>
+    <string name="FL">FL</string>
+    <string name="FR">FR</string>
+    <string name="BL">BL</string>
+    <string name="BR">BR</string>
+    <string name="C">Close Connection</string>
+    <string name="start">Start</string>
+    <string name="control">Accelerometer Control</string>
+
+</resources>
