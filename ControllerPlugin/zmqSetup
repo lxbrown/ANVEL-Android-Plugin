@@ -1,0 +1,10 @@
+There was an issue with setting up zmq in the ANVEL plugin. 
+
+One fix is to include a Preprocessor Definition for _WINSOCKAPI_ under Configuration Properties -> C/C++ -> Preproccessor. I believe this stops windows.h from including winsock.h which has some conflicts with winsock2.h.
+
+Another fix is to do the following:
+Add #include "zmq.hpp" to the very top of ZMQVideo.cpp
+Then undefine the values min and max
+#undef min 
+#undef max 
+Then #include <windows.h>
