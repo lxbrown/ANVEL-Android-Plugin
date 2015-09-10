@@ -1,0 +1,13 @@
+Dependencies/Core/
+Dependencies/Deps/
+Dependencies/lib/
+Dependencies/ode/
+Dependencies/Simulation/
+Dependencies/VaneOgreRender/
+bin/
+ipch/
+*.opensdf
+*.sdf
+*.suo
+*.filters
+*.user
